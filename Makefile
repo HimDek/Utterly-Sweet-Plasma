@@ -10,5 +10,8 @@ wallpaper: wallpaper/*
 kvantum: kvantum/*
 	tar -caf Utterly-Sweet-kvantum.zip kvantum/* --transform="s/kvantum/Utterly-Sweet/"
 
+sddm: sddm/*
+	tar -cJf Utterly-Sweet-SDDM.tar.xz sddm/* --transform="s/sddm/Utterly-Sweet/"
+
 clean:
 	rm *.zip & rm *.tar.*
