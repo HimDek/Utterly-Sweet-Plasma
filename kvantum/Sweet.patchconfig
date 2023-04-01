@@ -1,0 +1,16 @@
+# This patchconfig was used to build this Kvantum Theme using https://github.com/HimDek/Utterly-Round-Plasma-Style/tree/master/kvantum/Utterly-Round-Transparent-Kvantum-Template
+
+#colors
+background=#0a1124
+foreground=#e6dcbe
+accent=#c50ed2
+negative=#ed004b
+button=#282d43
+inactive=#666a73
+link=#5294e2
+visitedlink=#7cb7ff
+
+#details
+name=Sweet
+author="Himprakash Deka"
+comment="A dark sweetified Kvantum theme with transparency, blur and round borders for UI elements"
