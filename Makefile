@@ -10,7 +10,7 @@ wallpaper: wallpaper/*
 kvantum: kvantum/*
 	tar -caf Utterly-Sweet-kvantum.zip kvantum/* --transform="s/kvantum/Utterly-Sweet/"
 
-kvantum: kvantum-solid/*
+kvantum-solid: kvantum-solid/*
 	tar -caf Utterly-Sweet-Solid-kvantum.zip kvantum-solid/* --transform="s/kvantum-solid/Utterly-Sweet-Solid/"
 
 sddm: sddm/*
