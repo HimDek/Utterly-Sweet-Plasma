@@ -1,6 +1,9 @@
 look-and-feel: look-and-feel/*
 	tar -cJf Utterly-Sweet.tar.xz look-and-feel/* --transform="s/look-and-feel\///"
 
+look-and-feel-solid: look-and-feel-solid/*
+	tar -cJf Utterly-Sweet-Solid.tar.xz look-and-feel-solid/* --transform="s/look-and-feel-solid\///"
+
 colors: UtterlySweet.colors
 	tar -czf Utterly-Sweet-Colors.tar.gz UtterlySweet.colors
 
