@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "himprakashd@gmail.com",
+                "Name": "Himprakash Deka"
+            }
+        ],
+        "Category": "Plasma Look And Feel",
+        "Description": "A dark neon bluish Global Theme for Plasma with transparency and rounded edges for UI elements",
+        "EnabledByDefault": true,
+        "Id": "Utterly-Sweet",
+        "License": "GPL-2.0+",
+        "Name": "Utterly Sweet",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "2.1",
+        "Website": "www.himdek.com/Utterly-Sweet-Plasma"
+    },
+    "X-KPackage-Dependencies": "kns://aurorae.knsrc/api.kde-look.org/1999020,kns://colorschemes.knsrc/api.kde-look.org/1906471,kns://icons.knsrc/api.kde-look.org/1425426,kns://kwineffect.knsrc/api.kde-look.org/1270407,kns://plasma-themes.knsrc/api.kde-look.org/1901768,kns://plasmoids.knsrc/api.kde-look.org/1819888,kns://plasmoids.knsrc/api.kde-look.org/1897990,kns://plasmoids.knsrc/api.kde-look.org/998895,kns://plasmoids.knsrc/api.kde-look.org/1906579,kns://plasmoids.knsrc/api.kde-look.org/1274218,kns://sddmtheme.knsrc/api.kde-look.org/1909598,kns://wallpaper.knsrc/api.kde-look.org/1906464,kns://xcursor.knsrc/api.kde-look.org/1393084"
+}
