@@ -105,9 +105,9 @@ ForegroundVisited=124,183,255
 [General]
 ColorScheme=UtterlySweet
 Name=UtterlySweet
-TintFactor=0.09
-accentActiveTitlebar=true
-accentInactiveTitlebar=true
+TintFactor=0
+accentActiveTitlebar=false
+accentInactiveTitlebar=false
 shadeSortColumn=true
 
 [KDE]
