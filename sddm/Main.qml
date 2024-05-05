@@ -1,6 +1,5 @@
 /*
     SPDX-FileCopyrightText: 2016 David Edmundson <davidedmundson@kde.org>
-    SPDX-FileCopyrightText: 2023 Himprakash Deka <himprakashd@gmail.com>
 
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
@@ -217,7 +216,7 @@ Item {
                         enabled: sddm.canSuspend
                     },
                     ActionButton {
-                        iconSource: "system-restart"
+                        iconSource: "system-reboot"
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Restart")
                         fontSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.reboot()
@@ -361,7 +360,7 @@ Item {
                         enabled: sddm.canSuspend
                     },
                     ActionButton {
-                        iconSource: "system-restart"
+                        iconSource: "system-reboot"
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Restart")
                         fontSize: parseInt(config.fontSize) + 1
                         onClicked: sddm.reboot()
@@ -375,7 +374,7 @@ Item {
                         enabled: sddm.canPowerOff
                     },
                     ActionButton {
-                        iconSource: "system-switch-user"
+                        iconSource: "system-users"
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "List Users")
                         fontSize: parseInt(config.fontSize) + 1
                         onClicked: mainStack.pop()

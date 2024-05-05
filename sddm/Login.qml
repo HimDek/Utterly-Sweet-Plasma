@@ -139,7 +139,6 @@ SessionManagementScreen {
             }
         }
 
-
         PlasmaComponents3.Button {
             id: loginButton
             Accessible.name: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Log In")
