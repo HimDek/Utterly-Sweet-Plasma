@@ -5,4 +5,5 @@ applet.writeConfig("showOnlyCurrentScreen","true");
 applet.writeConfig("showOnlyCurrentActivity","true");
 applet.writeConfig("showOnlyCurrentDesktop","true");
 applet.writeConfig("wheelSkipMinimized","false");
+applet.writeConfig("iconSpacing", "0");
 applet.reloadConfig();
