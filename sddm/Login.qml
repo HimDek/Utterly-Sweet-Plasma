@@ -84,15 +84,6 @@ SessionManagementScreen {
         focus: showUsernamePrompt && !lastUserName //if there's a username prompt it gets focus first, otherwise password does
         placeholderText: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Username")
 
-        style: TextFieldStyle {
-            textColor: "#e6dcbe"
-            placeholderTextColor: "#e6dcbe"
-            background: Rectangle {
-                radius: 100
-                color: "#c50ed2"
-            }
-        }
-
         onAccepted: {
             if (root.loginScreenUiVisible) {
                 passwordBox.forceActiveFocus()
@@ -113,18 +104,6 @@ SessionManagementScreen {
 
             // Disable reveal password action because SDDM does not have the breeze icon set loaded
             rightActions: []
-            
-            style: TextFieldStyle {
-                textColor: passwordFieldOutlined ? "#c50ed2" : "#e6dcbe"
-                placeholderTextColor: passwordFieldOutlined ? "#c50ed2" : "#c50ed2"
-                passwordCharacter: config.PasswordFieldCharacter == "" ? "●" : config.PasswordFieldCharacter
-                background: Rectangle {
-                    radius: 100
-                    border.color: "#c50ed2"
-                    border.width: 1
-                    color: "#c50ed2"
-                }
-            }
 
             onAccepted: {
                 if (root.loginScreenUiVisible) {
@@ -161,22 +140,18 @@ SessionManagementScreen {
         }
 
 
-        onAccepted: {
-            if (root.loginScreenUiVisible) {
-                PlasmaComponents3.Button {
-                    id: loginButton
-                    Accessible.name: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Log In")
-                    Layout.preferredHeight: passwordBox.implicitHeight
-                    Layout.preferredWidth: text.length === 0 ? loginButton.Layout.preferredHeight : -1
+        PlasmaComponents3.Button {
+            id: loginButton
+            Accessible.name: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Log In")
+            Layout.preferredHeight: passwordBox.implicitHeight
+            Layout.preferredWidth: text.length === 0 ? loginButton.Layout.preferredHeight : -1
 
-                    icon.name: text.length === 0 ? (root.LayoutMirroring.enabled ? "go-previous" : "go-next") : ""
+            icon.name: text.length === 0 ? (root.LayoutMirroring.enabled ? "go-previous" : "go-next") : ""
 
-                    text: root.showUsernamePrompt || userList.currentItem.needsPassword ? "" : i18n("Log In")
-                    onClicked: startLogin()
-                    Keys.onEnterPressed: clicked()
-                    Keys.onReturnPressed: clicked()
-                }
-            }
+            text: root.showUsernamePrompt || userList.currentItem.needsPassword ? "" : i18n("Log In")
+            onClicked: startLogin()
+            Keys.onEnterPressed: clicked()
+            Keys.onReturnPressed: clicked()
         }
     }
 }
