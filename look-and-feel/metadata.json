@@ -15,7 +15,7 @@
         "Name": "Utterly Sweet",
         "Description": "A dark neon bluish Global Theme for Plasma with transparency and rounded edges for UI elements",
         "Id": "Utterly-Sweet",
-        "Version": "3.2",
+        "Version": "3.3",
         "License": "GPL-2.0+",
         "Website": "www.himdek.com/Utterly-Sweet-Plasma"
     },
@@ -29,7 +29,7 @@
         "kns://plasmoids.knsrc/api.kde-look.org/2129423",
         "kns://plasmoids.knsrc/api.kde-look.org/2136505",
         "kns://plasmoids.knsrc/api.kde-look.org/2132554",
-        "kns://sddmtheme.knsrc/api.kde-look.org/1909598",
+        "kns://sddmtheme.knsrc/api.kde-look.org/2340613",
         "kns://wallpaper.knsrc/api.kde-look.org/1906464",
         "kns://xcursor.knsrc/api.kde-look.org/1393084"
     ]
